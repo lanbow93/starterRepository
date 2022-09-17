@@ -1,3 +1,24 @@
-h1 {
-    color: blueviolet;
+:root {
+    --maincolor: blueviolet;
+    --secondarycolor: white;
+    --accent: rgb(229, 229, 47);
+    
+    --titles: arial;
+    --text: serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--text);    
+}
+
+h1,h2,h2,h4,h4,h5,h6 {
+    color: var(--maincolor);
+    font-family: var(--titles);
+    text-align: center;
 }
