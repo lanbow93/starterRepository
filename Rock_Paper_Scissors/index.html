@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lapis, Papyrus, Scalpellus by Lance B.</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous" defer></script>
+  <script src="./js/app.js" defer></script>
+</head>
+<body>
+  <header><nav></nav></header>
+  <main>
+    <h1>Lapis, Papyrus, and Scalpellus</h1>
+    <h3>The Old-School Rock Paper Scissors</h3>
+    <p>Ways to Win:
+      <ul id="instructions">
+        <li><span class = "bullet">Scalpellus beats Papyrus</span></li>
+        <li><span class = "bullet">Papyrus beats Lapis</span></li>
+          <li><span class = "bullet">Lapis beats Scalpellus</span></li>
+      </ul>
+    <p>Please chose one of the options below then press play:</p>
+    <div>
+    <p class="scoreboard">Player Score:</br>
+    <span id='playerScore'>0</span> 
+    </p>
+    <p class="scoreboard">Computer Score:</br>
+    <span id='computerScore'>0</span> 
+    </p>
+    </div>
+    <div>
+      <button id="lap">Lapis</button>
+      <button id="pap">Papyrus</button>
+      <button id="sca">Scalpellus</button>
+      <br/>
+      <button id="play" disabled="disabled">PLAY</button>
+    </div> 
+    
+    <h2 id="result">You still need to make a choice!</h2>
+  </main>
+  <footer></footer>
+</body>
+</html>

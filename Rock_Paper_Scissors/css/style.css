@@ -1,0 +1,79 @@
+:root {
+    --maincolor: blueviolet;
+    --secondarycolor: white;
+    --accent: rgb(229, 229, 47);
+    
+    --titles: arial;
+    --text: serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+body {
+  background: #ffe1af;
+}
+
+h1, h3, p, ul {
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+}
+div {
+  text-align: center;
+}
+
+#instructions {
+  position: relative;
+  margin: 0 35%;
+  padding: 20px 50px 20px 50px;
+  border: dotted; 
+}
+
+.scoreboard {
+  border: outset;
+  display: inline-block;
+  position: center;
+  margin: 5px 3% 15px 3%;
+  padding: 10px;
+}
+
+#result {
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+}
+p {
+  font-weight: 900;
+}
+button {
+  padding: 20px 50px;
+  font-weight: 200;
+  font-family: 'Cinzel Decorative', cursive;
+}
+#play {
+  padding: 10px 20%;
+  margin: 20px;
+  font-family: 'Cinzel Decorative', cursive;
+}
+/* Following for smaller screens */
+@media screen and (max-width: 480px) {
+  
+  #instructions {
+    position: relative;
+    padding: 0 30px 0 30px;
+    margin: 0;
+   }
+  
+  button {
+    padding: 15px 30px;
+  }
+  #play {
+    padding: 10px 150px 10px 175px;
+    margin: 15px 15px -10px 15px;
+  }
+  
+}
